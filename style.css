@@ -1,0 +1,97 @@
+@font-face {
+	font-family: "Trumania";
+	src:url("policies/Trumania.ttf");
+}
+@font-face {
+	font-family: "Conqueror";
+	src:url("policies/AWConquerorFreSans-Light.otf");
+	src:url("policies/humanist521bt.ttf");
+}
+@font-face {
+	font-family: "GillsansMTprobook";
+	src:url("policies/GillsansMTprobook.otf");
+}
+@font-face {
+	font-family: "HamburgSerialBold";
+	src:url("policies/hamburgserialbold.woff");
+	src:url("policies/hamburgserialbold.eot");
+	src:url("policies/hamburgserialbold.ttf");
+}
+body {
+	background-color: black;
+	color: #EC3C49;
+	text-align: center;
+	margin: 0;
+	overflow: scroll;
+}
+
+container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.up {
+	align-self: stretch;
+}
+h1 {
+	font-family: "GillsansMTprobook";
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 35px;
+	font-size: 90px;
+	margin-bottom: -10px;
+
+}
+h2 {
+	color: white;
+	font-family: "Conqueror";
+	font-weight: lighter;
+	letter-spacing: -10px;
+	font-size: 80px;
+	text-transform: lowercase;
+	text-shadow: 7px 6px #EC3C49;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+h2 strong {
+	font-family: "Trumania";
+	text-transform: uppercase;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: 5px;
+
+}
+.middle {
+align-items: center;
+}
+
+img {
+	width: 750px;
+	height: 850px;
+	border: 15px solid #EC3C49;
+	filter: contrast(100%) brightness(100%)saturate(90%);
+	-webkit-filter: contrast(100%) brightness(100%)saturate(90%);
+	-moz-filter: contrast(100%) brightness(100%)saturate(90%);
+	-o-filter: contrast(100%) brightness(100%)saturate(90%);
+}
+
+.down {
+	align-items: flex-end;
+}
+
+h3 {
+	font-family: "HamburgSerialBold";
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-top: 25px;
+	margin-bottom: -6px;
+
+}
+p {
+	font-family: helvetica;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 30px;
+
+}
