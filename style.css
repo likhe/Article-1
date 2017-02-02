@@ -1,105 +1,100 @@
 @font-face {
-	font-family: "Trumania";
-	src:url("policies/Trumania.ttf");
+    font-family: "Trumania";
+    src: url("policies/Trumania.ttf");
 }
+
 @font-face {
-	font-family: "Conqueror";
-	src:url("policies/AWConquerorFreSans-Light.otf");
-	src:url("policies/humanist521bt.ttf");
+    font-family: "Conqueror";
+    src: url("policies/AWConquerorFreSans-Light.otf");
+    src: url("policies/humanist521bt.ttf");
 }
+
 @font-face {
-	font-family: "GillsansMTprobook";
-	src:url("policies/GillsansMTprobook.otf");
+    font-family: "GillsansMTprobook";
+    src: url("policies/GillsansMTprobook.otf");
 }
+
 @font-face {
-	font-family: "HamburgSerialBold";
-	src:url("policies/hamburgserialbold.woff");
-	src:url("policies/hamburgserialbold.eot");
-	src:url("policies/hamburgserialbold.ttf");
+    font-family: "HamburgSerialBold";
+    src: url("policies/hamburgserialbold.woff");
+    src: url("policies/hamburgserialbold.eot");
+    src: url("policies/hamburgserialbold.ttf");
 }
+
 body {
-	color: #EC3C49;
-	text-align: center;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    color: #EC3C49;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 container {
-	box-shadow: 0 0 3px white;
-	border: 1px solid red;
-	display: inline-block;
-	justify-content: center;
-	flex-direction: column;
-	padding: 1.2em;
-	margin-top: 25%;
-	padding-left: -6em;
-	background-color: black;
+    box-shadow: 0 0 3px white;
+    border: 1px solid red;
+    position: absolute;
+    padding: 20px;
+    background-color: black;
+    top: 5%;
+    left: 40%;
 }
 
-.up {
-	align-self: center;
+.up, .middle, .down {
+    text-align: center;
 }
+
 h1 {
-	color: white;
-	font-family: "Conqueror";
-	font-weight: lighter;
-	letter-spacing: -0.1em;
-	font-size: 3em;
-	text-transform: lowercase;
-	text-shadow: 7px 6px #EC3C49;
-	margin-bottom: 20px;
-	margin-top: 30px;
+    color: white;
+    font-family: "Conqueror";
+    font-weight: lighter;
+    letter-spacing: -0.1em;
+    font-size: 3em;
+    text-transform: lowercase;
+    text-shadow: 7px 6px #EC3C49;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
-h2 {
-	font-family: "GillsansMTprobook";
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 35px;
-	font-size: 1.5em;
-	margin-bottom: -10px;
 
+h2 {
+    font-family: "GillsansMTprobook";
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 35px;
+    font-size: 1.5em;
+    margin-bottom: -10px;
 }
 
 h1 strong {
-	font-family: "Trumania";
-	text-transform: uppercase;
-	font-size: 1em;
-	font-weight: bold;
-	letter-spacing: 5px;
-
-}
-.middle {
-align-items: center;
+    font-family: "Trumania";
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 
 img {
-	width: 36vw;
-	height: 36vh;
-	border: .3em solid #EC3C49;
-	filter: contrast(100%) brightness(100%)saturate(90%);
-	-webkit-filter: contrast(100%) brightness(100%)saturate(90%);
-	-moz-filter: contrast(100%) brightness(100%)saturate(90%);
-	-o-filter: contrast(100%) brightness(100%)saturate(90%);
+    width: 550px;
+    height: 750px;
+    border: .3em solid #EC3C49;
+    filter: contrast(100%) brightness(100%)saturate(90%);
+    -webkit-filter: contrast(100%) brightness(100%)saturate(90%);
+    -moz-filter: contrast(100%) brightness(100%)saturate(90%);
+    -o-filter: contrast(100%) brightness(100%)saturate(90%);
 }
 
-.down {
-	align-items: flex-end;
-}
 
 h3 {
-	font-family: "HamburgSerialBold";
-	font-size: .9em;
-	letter-spacing: 3px;
-	margin-top: 25px;
-	margin-bottom: -6px;
-
+    font-family: "HamburgSerialBold";
+    font-size: .9em;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: -6px;
 }
-p {
-	font-family: helvetica;
-	font-weight: lighter;
-	font-style: italic;
-	font-size: .8em;
 
+p {
+    font-family: helvetica;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: .8em;
 }
