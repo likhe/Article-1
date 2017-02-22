@@ -31,15 +31,17 @@ body {
 }
 
 container {
-    box-shadow: 0 0 3px white;
-    border: 1px solid red;
-    position: absolute;
     padding: 20px;
-    background-color: black;
-    top: 5%;
-    left: 40%;
 }
+section {
+  margin: 0 auto;
+  width: 700px;
+  height: 700px;
+  box-shadow: 0 0 3px white;
+  border: 1px solid red;
+  background-color: black;
 
+}
 .up, .middle, .down {
     text-align: center;
 }
@@ -74,8 +76,8 @@ h1 strong {
 }
 
 img {
-    width: 550px;
-    height: 750px;
+    width: 450px;
+    height: 450px;
     border: .3em solid #EC3C49;
     filter: contrast(100%) brightness(100%)saturate(90%);
     -webkit-filter: contrast(100%) brightness(100%)saturate(90%);
